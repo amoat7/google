@@ -1,0 +1,182 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/****************** END OF CSS RESET *********************/
+
+*{
+	color: white;
+}
+html, body {
+  height: 100%;
+  background-color: #181A1B;
+}
+.container{
+	display: flex;
+	flex-direction: column;
+	font-size: 18px;
+	min-height: 90vh;
+}
+
+nav{
+	margin-top: 10px;
+	display: flex;
+	
+
+}
+.ul_1{
+	display: flex;
+	flex-direction: row;
+	margin: 10px 0px 0px 15px;
+	justify-content: space-between;
+	padding-right: 5px;
+	width: 150px;
+}
+.ul_2{
+	display: flex;
+	flex-direction: row;
+	margin: 10px 15px 0px 0px;
+	width: 250px;
+	justify-content: space-between;
+	align-items: flex-end;
+
+}
+
+#mic{
+	width: 20px;
+}
+
+nav{
+
+	display: flex;
+	justify-content: space-between;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+.content {
+
+   display: flex;
+  flex: 1;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 40vw;
+
+
+}
+
+footer{
+
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	background-color: #181A1B;
+	height: 50px;
+	align-items: center;
+	border-top: 1px solid grey;
+}
+
+
+#bottom-left{
+
+	display: flex;
+	flex-direction: row;
+	width: 40vw;
+	justify-content: flex-start;
+}
+#bottom-left a{
+	width: 200px;
+}
+
+#bottom-right{
+
+	display: flex;
+	flex-direction: row;
+	width: 30vw;
+	justify-content: flex-end;
+}
+
+#bottom-right a{
+	width: 200px;
+}
+
+div input{
+
+	width: 600px;
+	height: 30px;
+	border: none;
+	border-radius: 35px;
+	outline:none;
+	font-size: 20px;
+	background-color: #181A1B;
+}
+
+
+
+.form{
+	border: 0.5px solid grey;
+	padding: 0px 30px;
+	padding-top: 15px;
+	padding-bottom: 2px;
+	border-radius: 35px;
+}
+#logo{
+
+	width: 350px;
+
+}
+
+button{
+
+	margin-top: 20px;
+	height: 40px;
+	width: 150px;
+	font-size: 16px;
+	border: 1px solid grey;
+	margin-right: 20px;
+	outline:none;
+	background-color: #181A1B;
+}
