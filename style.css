@@ -48,14 +48,13 @@ table {
 	color: white;
 }
 html, body {
-  height: 100%;
+  height: 100vh;
   background-color: #181A1B;
 }
 .container{
 	display: flex;
 	flex-direction: column;
-	font-size: 18px;
-	min-height: 90vh;
+	font-size: 16px;
 }
 
 nav{
@@ -99,11 +98,10 @@ a:link {
 .content {
 
    display: flex;
-  flex: 1;
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 40vw;
+  height: 100vh;
 
 
 }
